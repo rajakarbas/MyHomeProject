@@ -1,0 +1,9 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE PROC [dbo].[spGetSampleTabledetails]
+AS
+SET NOCOUNT ON
+SELECT id FROM dbo.sampletable
+GO
